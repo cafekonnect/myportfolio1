@@ -1,9 +1,9 @@
 {
   "name": "modern_portfolio",
   "version": "1.0.0",
-  "description": "Responsive portfolio website",
+  "description": "christopher mulei kyalo",
   "main": "index.js",
-  "homepage": "https://bradtraversy.github.io/modern_portfolio",
+  "homepage": "https://cafekonnect.github.io/myportfolio1",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
     "deploy": "gh-pages -d dist"
