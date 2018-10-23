@@ -79,7 +79,7 @@ main {
   grid-gap: 30px;
   grid-template-areas:
     'bioimage bio bio'
-    'job1 job2 job3';
+    'job1 job2 job3 job4 job5 job6 job7 job8 job9 job10 job11 job12 job13 job14 job15 job16 job17 job18' ;
   grid-template-columns: repeat(3, 1fr);
 
   .bio-image {
@@ -105,6 +105,61 @@ main {
   .job-3 {
     grid-area: job3;
   }
+  .job-4 {
+    grid-area: job4;
+  }
+
+  .job-5 {
+    grid-area: job5;
+  }
+
+  .job-6 {
+    grid-area: job6;
+  }
+
+  .job-7 {
+    grid-area: job7;
+  }
+  .job-8 {
+    grid-area: job8;
+  }
+
+  .job-9 {
+    grid-area: job9;
+  }
+
+  .job-10 {
+    grid-area: job10;
+  }
+  .job-11 {
+    grid-area: job11;
+  }
+
+  .job-12 {
+    grid-area: job12;
+  }
+
+  .job-13 {
+    grid-area: job13;
+  }
+
+  .job-14 {
+    grid-area: job14;
+  }
+
+  .job-15 {
+    grid-area: job15;
+  }
+
+  .job-16 {
+    grid-area: job16;
+  }
+  .job-17 {
+    grid-area: job17;
+  }
+
+
+
 
   .job {
     background: lighten($primary-color, 5);
@@ -126,6 +181,7 @@ main {
     &:hover {
       opacity: 0.5;
       border-color: $secondary-color;
+      
       @include easeOut;
     }
   }
